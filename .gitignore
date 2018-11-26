@@ -1,7 +1,8 @@
-Karconnect/.gradle
-Karconnect/node_modules
-Karconnect/platforms
-Karconnect/www
-Karconnect/plugins
+KarConnect_Mobile_App/.gradle
+KarConnect_Mobile_App/google-services.json
+KarConnect_Mobile_App/node_modules
+KarConnect_Mobile_App/platforms
+KarConnect_Mobile_App/www
+KarConnect_Mobile_App/plugins
 WebApp/node_modules
 Rpi_Source_Code/node_modules

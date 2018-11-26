@@ -1,0 +1,30 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-header>
+      <h2><b>Welcome, Login Here</b></h2>
+    </ion-card-header>
+    <ion-card-content>
+      <form #loginForm="ngForm" novalidate>
+        <ion-item>
+          <ion-label floating>Email Address</ion-label>
+          <ion-input type="email" name="email" [(ngModel)]="user.email"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label floating>Password</ion-label>
+            <ion-input type="password" name="password" [(ngModel)]="user.password"></ion-input>
+          </ion-item>
+      </form>
+    </ion-card-content>
+  </ion-card>
+  <button ion-button full (click)="navigateto();">Login</button>
+</ion-content>
